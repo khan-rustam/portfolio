@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "date": "01/08/2023",
+      "title": "CRYPTO MANAGER.",
+      "description": "This is a Reactjs app sample which is made made with react responsive carousel and use of Chakra Ui . This is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
+      "url": " https://cryptomanager-one.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/08/22/20/25/bitcoin-2670336_1280.png"
+    },
+    {
+      "date": "25/07/2023",
+      "title": "VIDEO HUB.",
+      "description": "This is a Reactjs app sample which is made made with react responsive carousel and use of browseer router. This is made by me in only 2 days and it is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
+      "url": "https://project2-8xg3eulys-rustamkhan.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/02/09/18/42/podcast-7779510_1280.png"
+    },
+    {
+      "date": "05/08/2023",
+      "title": "PORTFOLIO.",
+      "description": "This is a Reactjs app sample which is made made with react responsive carousel. This is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
+      "url": "#home",
+      "imgSrc": "https://public-files.gumroad.com/4a8evvw1yojtolip911bg32s6oej"
+    },
+    {
+      "date": "02/07/2023",
+      "title": "TECH STAR.",
+      "description": "This is a Reactjs app sample which is made made with react responsive carousel and use of browseer router. This is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
+      "url": "https://project1-ten-psi.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+    }
+  ]
+}
