@@ -63,7 +63,7 @@ export default function Home({ ratio }) {
 
           <div>
             <a href="mailto:khanrustam2809@gmail.com">Hire Me</a>
-            <a href="https://drive.google.com/file/d/1G4uhagj6D3wkvlBiXXr1Gn9deHeTYsMv/view?usp=sharing" target="blank">
+            <a href="https://drive.google.com/file/d/1xiEAfFraH-Dx3PVXZ8hPELjjS9JJmXtG/view?usp=drivesdk" target="blank">
               Resume  <BsArrowUpRight />
             </a>
           </div>
