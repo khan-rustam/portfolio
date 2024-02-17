@@ -1,6 +1,41 @@
 {
   "projects": [
     {
+      "date": "20/11/2023",
+      "title": "E Commerce.",
+      "description": "🌟 Dive into the Future of E-commerce with our MERN (MongoDB, Express.js, React.js, Node.js) Technology!✨ Unleash the Power of MERN🚀 Dynamic UI/UX: Immerse your customers in an unparalleled shopping journey with React.js for a responsive and interactive front-end.",
+      "url": "https://e-commerce-2024.netlify.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/03/13/17/26/ecommerce-2140604_1280.jpg"
+    },
+    {
+      "date": "05/01/2024",
+      "title": "Urban Estate.",
+      "description": "🏡 Excited to showcase my real estate website project! 🌐 Built using MERN stack & Firebase 🔧 Seamless user experience, responsive design 📸 Property listings, dynamic search features 🌟 Implemented authentication for secure user access 🚀 Fresh, innovative, and ready to explore new opportunities!",
+      "url": "https://urban-estate.onrender.com/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2021/10/07/15/23/real-estate-6688945_1280.jpg"
+    },
+    {
+      "date": "10/01/2024",
+      "title": "Todo App.",
+      "description": "Excited to showcase my latest project on LinkedIn – a dynamic and user-friendly Todo App developed with TypeScript! 🚀Key Features:✨ Fully Responsive Design.✨ TypeScript Integration.✨ Intuitive User Interface.✨ Task Prioritization.✨ Seamless Integration.",
+      "url": "https://typescript-todo-2024.netlify.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg"
+    },
+    {
+      "date": "30/01/2024",
+      "title": "Language Lerner App.",
+      "description": "🌐 LinguaQuest -an innovative language learning app designed to make your language learning journey exciting, effective, and tailored to your individual needs.Built with TypeScript & React.LinguaQuest supports a variety of languages, allowing you to learn your chosen language with ease.Powered by the Microsoft Translator API, you can trust LinguaQuest for accurate and reliable translations.",
+      "url": "https://linguaquest.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg"
+    },
+    {
+      "date": "10/12/2023",
+      "title": "Admin Dashboard.",
+      "description": "An admin dashboard is a web-based user interface that provides administrators with an overview of critical metrics, data, and functionality. It often includes items such as charts, tables, forms, and navigation. The dashboard enables administrators to efficiently monitor and manage the program or system.",
+      "url": "https://admin-dashboard-2023.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/09/07/10/07/english-2724442_1280.jpg"
+    },
+    {
       "date": "01/08/2023",
       "title": "CRYPTO MANAGER.",
       "description": "This is a Reactjs app sample which is made made with react responsive carousel and use of Chakra Ui . This is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
@@ -8,25 +43,14 @@
       "imgSrc": "https://cdn.pixabay.com/photo/2017/08/22/20/25/bitcoin-2670336_1280.png"
     },
     {
-      "date": "25/07/2023",
-      "title": "VIDEO HUB.",
-      "description": "This is a Reactjs app sample which is made made with react responsive carousel and use of browseer router. This is made by me in only 2 days and it is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
-      "url": "https://project2-8xg3eulys-rustamkhan.vercel.app/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2023/02/09/18/42/podcast-7779510_1280.png"
-    },
-    {
       "date": "05/08/2023",
       "title": "PORTFOLIO.",
       "description": "This is a Reactjs app sample which is made made with react responsive carousel. This is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
       "url": "#home",
       "imgSrc": "https://public-files.gumroad.com/4a8evvw1yojtolip911bg32s6oej"
-    },
-    {
-      "date": "02/07/2023",
-      "title": "TECH STAR.",
-      "description": "This is a Reactjs app sample which is made made with react responsive carousel and use of browseer router. This is made to recheck my skills and improve them more and more to deleiver a polished content to my clints.",
-      "url": "https://project1-ten-psi.vercel.app/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
     }
+  
   ]
 }
+
+
