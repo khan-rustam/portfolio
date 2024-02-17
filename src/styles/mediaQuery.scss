@@ -19,12 +19,12 @@
     height: 110vh;
     section {
       article {
-        height: 20rem;
+        // height: 20rem;
         width: 90%;
       }
       .workItem {
         height: 20rem;
-        padding: 2rem;
+        padding: 1rem;
         aside {
           p {
             margin: 1rem;
@@ -125,10 +125,13 @@
     padding: 8rem $p_zero;
     section {
       article {
-        height: 25rem;
+        // height: 25rem;
       }
       .workItem {
-        height: 25rem;
+        // height: 25rem;
+        > p {
+          word-wrap: break-word;
+        }
       }
     }
   }
@@ -202,7 +205,7 @@
       width: 30vmax;
       height: 30vmax;
     }
-    >section{
+    > section {
       &:last-of-type {
         > img {
           width: 30vmax;
@@ -211,12 +214,23 @@
       }
     }
   }
-  #work section .workItem {
-    height: 50vmax;
+  #work > section .workContainer .workItem > aside {
+    width: 100%;
+    > p {
+      line-height: 120%;
+      font-size: small;
+      margin: 2rem 0;
+    }
   }
-  .workItem img {
-    margin: auto;
-    height: 70%;
+  #work section .workItem {
+    // height: 50vmax;
+    flex-direction: column;
+
+    img {
+      margin: auto;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
@@ -281,7 +295,7 @@
     section {
       article {
         width: 100%;
-        height: 30vmax;
+        // height: 30vmax;
       }
 
       .workItem aside p {
@@ -294,10 +308,10 @@
       .workItem img {
         height: 50%;
       }
-      .workItem {
-        height: 40vmax;
-        padding: 0;
-      }
+      // .workItem {
+      //   height: 40vmax;
+      //   padding: 0;
+      // }
     }
   }
 
