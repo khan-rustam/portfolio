@@ -5,7 +5,32 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
   AiOutlineArrowUp,
+  AiFillTwitterSquare,
 } from "react-icons/ai";
+import { SiNetlify } from "react-icons/si";
+
+const footerIcons = [
+  {
+    link: "https://www.linkedin.com/in/kh4n28/",
+    icon: <AiFillLinkedin />,
+  },
+  {
+    link: "https://github.com/khan-rustam",
+    icon: <AiFillGithub />,
+  },
+  {
+    link: "https://www.instagram.com/____rustam.___/",
+    icon: <AiFillInstagram />,
+  },
+  {
+    link: "https://app.netlify.com/teams/khan-rustam",
+    icon: <SiNetlify />,
+  },
+  {
+    link: "https://twitter.com/KH4N2809",
+    icon: <AiFillTwitterSquare />,
+  },
+];
 
 export default function Footer() {
   return (
@@ -19,17 +44,11 @@ export default function Footer() {
       <aside>
         <h2>Check Out Me</h2>
         <article>
-          <a href="https://www.linkedin.com/in/kh4n28/" target={"blank"}>
-            <AiFillLinkedin />
-          </a>
-
-          <a href="https://github.com/Rustam028" target={"blank"}>
-            <AiFillGithub />
-          </a>
-
-          <a href=" https://www.instagram.com/kh4n_028/" target={"blank"}>
-            <AiFillInstagram />
-          </a>
+          {footerIcons.map((i) => (
+            <a href={i.link} target="_blank">
+              {i.icon}
+            </a>
+          ))}
         </article>
       </aside>
       <a href="#home">
