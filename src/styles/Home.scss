@@ -93,8 +93,8 @@
       align-items: center;
       &::after {
         content: "";
-        width: 40vmax;
-        height: 40vmax;
+        width: 30vmax;
+        height: 30vmax;
         background-color: $color3;
         position: absolute;
         z-index: -1;
@@ -102,8 +102,8 @@
       }
 
       > img {
-        width: 40vmax;
-        height: 40vmax;
+        width: 30vmax;
+        height: 30vmax;
         object-fit: contain;
       }
     }
