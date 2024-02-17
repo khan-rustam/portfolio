@@ -45,7 +45,7 @@ export default function Footer() {
         <h2>Check Out Me</h2>
         <article>
           {footerIcons.map((i) => (
-            <a href={i.link} target="_blank">
+            <a href={i.link} target="_blank" key={i.link}>
               {i.icon}
             </a>
           ))}
