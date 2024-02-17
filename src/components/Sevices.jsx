@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillIeCircle, AiFillAndroid, AiFillWindows } from "react-icons/ai";
+import { CgWebsite } from "react-icons/cg";
+import { AiFillIeCircle, AiFillWindows } from "react-icons/ai";
 
 export default function Sevices() {
   const animations = {
@@ -13,7 +14,7 @@ export default function Sevices() {
       x: "-100%",
       opacity: 0,
     },
-    twAndThree: {
+    twoAndThree: {
       y: "-100%",
       opacity: 0,
     },
@@ -23,45 +24,52 @@ export default function Sevices() {
     },
   };
 
+  const componentDiv = [
+    {
+      className: "serviceBox1",
+      initialAnimation: animations.one,
+      transition: {},
+      icon: <h3>2+</h3>,
+      para: <p>Years Experience</p>,
+    },
+    {
+      className: "serviceBox2",
+      initialAnimation: animations.twoAndThree,
+      transition: {},
+      icon: <AiFillIeCircle />,
+      para: <span> Web Development </span>,
+    },
+    {
+      className: "serviceBox3",
+      initialAnimation: animations.twoAndThree,
+      transition: { delay: 0.2 },
+      icon: <AiFillWindows />,
+      para: <span> Web Design </span>,
+    },
+    {
+      className: "serviceBox4",
+      initialAnimation: animations.four,
+      transition: {},
+      icon: <CgWebsite />,
+      para: <span> MERN Stack </span>,
+    },
+  ];
+
   return (
     <div id="services">
       <h2>Sevices</h2>
       <section>
-        <motion.div
-          className="serviceBox1"
-          whileInView={animations.whileInView}
-          initial={animations.one}
-        >
-          <h3>1+</h3>
-          <p>Years Experience</p>
-        </motion.div>
-        <motion.div
-          className="serviceBox2"
-          whileInView={animations.whileInView}
-          initial={animations.twAndThree}
-        >
-          <AiFillIeCircle />
-          <span> web Development </span>
-        </motion.div>
-        <motion.div
-          className="serviceBox3"
-          whileInView={animations.whileInView}
-          initial={animations.twAndThree}
-          transition={{
-            delay: 0.2,
-          }}
-        >
-          <AiFillAndroid />
-          <span> App Development </span>
-        </motion.div>
-        <motion.div
-          className="serviceBox4"
-          whileInView={animations.whileInView}
-          initial={animations.four}
-        >
-          <AiFillWindows />
-          <span> web Design </span>
-        </motion.div>
+        {componentDiv.map((i) => (
+          <motion.div
+            className={i.className}
+            whileInView={animations.whileInView}
+            initial={i.initialAnimation}
+            key={i.className}
+          >
+            {i.icon}
+            {i.para}
+          </motion.div>
+        ))}
       </section>
     </div>
   );
