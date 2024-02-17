@@ -19,15 +19,17 @@ export default function Work() {
             autoPlay={true}
           >
             {data.projects.map((i) => (
-              <div className="workItem" key={i.title}>
-                <img src={i.imgSrc} alt={i.title} />
-                <aside>
-                  <h3>{i.title}</h3>
-                  <p>{i.description}</p>
-                  <a href={i.url} target={"blank"}>
-                    View Demo
-                  </a>
-                </aside>
+              <div className="workContainer" key={i.title}>
+                <h3>{i.title}</h3>
+                <div className="workItem">
+                  <img src={i.imgSrc} alt={i.title} />
+                  <aside>
+                    <p>{i.description}</p>
+                    <a href={i.url} target={"blank"}>
+                      View Demo
+                    </a>
+                  </aside>
+                </div>
               </div>
             ))}
           </Carousel>
