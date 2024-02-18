@@ -23,7 +23,7 @@
     },
     {
       "date": "30/01/2024",
-      "title": "Language Lerner App.",
+      "title": "Language Learner App.",
       "description": "🌐 LinguaQuest -language learning app designed to make your language learning journey effective, and tailored.Built with TypeScript & React.LinguaQuest supports a variety of languages, Powered by the Microsoft Translator API.",
       "url": "https://linguaquest.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/09/07/10/07/english-2724442_1280.jpg"
