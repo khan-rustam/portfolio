@@ -11,7 +11,7 @@ import { SiNetlify } from "react-icons/si";
 
 const footerIcons = [
   {
-    link: "https://www.linkedin.com/in/kh4n28/",
+    link: "https://www.linkedin.com/in/khan-rustam/",
     icon: <AiFillLinkedin />,
   },
   {
@@ -21,10 +21,6 @@ const footerIcons = [
   {
     link: "https://www.instagram.com/____rustam.___/",
     icon: <AiFillInstagram />,
-  },
-  {
-    link: "https://app.netlify.com/teams/khan-rustam",
-    icon: <SiNetlify />,
   },
   {
     link: "https://twitter.com/KH4N2809",
