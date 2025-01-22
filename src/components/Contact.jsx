@@ -67,7 +67,7 @@ export default function Contact() {
     <div id="contact">
       <section>
         <motion.form onSubmit={submitHandler} {...animations.form}>
-          <h2>Contact Me</h2>
+          <h2>Connect With Me!!</h2>
           <input
             type="text"
             placeholder="Your Name:"
