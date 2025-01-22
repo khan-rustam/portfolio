@@ -51,13 +51,13 @@ export default function Sevices() {
       initialAnimation: animations.four,
       transition: {},
       icon: <CgWebsite />,
-      para: <span> MERN Stack </span>,
+      para: <span> MERN Stack Development </span>,
     },
   ];
 
   return (
     <div id="services">
-      <h2>Sevices</h2>
+      <h2>Sevices!</h2>
       <section>
         {componentDiv.map((i) => (
           <motion.div
